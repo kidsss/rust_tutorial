@@ -9,3 +9,7 @@
 
 2.7 方法 method(类对象，定义和方法是分离的(数据和使用分离))
 - [method定义](method/define.md)
+
+2.8 泛型 generics
+- [泛型详解](generics/generics.md)
+
