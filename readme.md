@@ -2,5 +2,6 @@
 参考链接：https://course.rs/about-book.html
 
 章节小抄：
-
-2.6 模式匹配：[match的用法](matches/readme.md)
+2.6 模式匹配：
+- [match的用法](matches/match.md)
+- [Option解构](matches/option.md)
