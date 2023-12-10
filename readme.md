@@ -3,4 +3,4 @@
 
 章节小抄：
 
-2.6 模式匹配：match的用法
+2.6 模式匹配：[match的用法](matches/readme.md)
