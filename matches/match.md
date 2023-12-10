@@ -8,7 +8,7 @@
 ```
 match target {
     pattern 1 => exp 1,
-    pattern 2 => {
+    pattern 2 | pattern 3 => {
         statement1;
         statement1;
         statement1
@@ -44,10 +44,22 @@ fn value_in_cents(coins: Coin) -> u8 {
 }
 ```
 
+### 匹配守卫 match guard
+为match分支增加 if判断
+```
+match v {
+    Some(x) if x < 4 => println!("less than 4: {}", x),
+    Some(x) => println!("{}", x),
+    None => (),
+}
+```
+
+
 ### matches! ：bool判断
 枚举值互相比较时使用，
 warning: 无法直接将 变量 与 一个枚举成员进行直接比较；
 比较方法：`matches!(x, MyEnum::Foo)`
+
 
 ## if let 匹配
 仅需要识别一种模式，其他模式无操作；以下两种方式等价
